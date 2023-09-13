@@ -30,4 +30,6 @@
 
 .img_logo{
     border-radius: 50%;
+    width: 30%;
+    cursor: pointer;
 }
