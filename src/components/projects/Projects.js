@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree,projectFour,projectFive,projectSix} from "../../assets/index";
+import { projectOne, projectTwo,projectFour,projectFive,projectSix} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -53,9 +53,16 @@ const Projects = () => {
           githubLink=""
           websiteLink=""
         />
+          <ProjectsCard
+          title="Quote Generator"
+          des="This is my Quote Genrator app.Created react jsx and css.Here I learned how fetch data with api"
+          // src={projectSeven}
+          githubLink=""
+          websiteLink=""
+        />
         <ProjectsCard
           title="E-commerce"
-          des="This is E-commerce app. Created HTML,CSS and REACT js. Here I learned lot of things like context API, How fetch data with api, Tailwind css and React router dom "
+          des="This is E-commerce app. Created HTML,CSS and REACT js. Here I learned lot of things like context API, Tailwind css and React router dom "
           src={projectSix}
           githubLink=""
           websiteLink=""
