@@ -50,8 +50,8 @@ const Projects = () => {
           title="Quote Generator"
           des="This is my Quote Genrator app.Created react jsx and css.Here I learned how fetch data with api"
           src={projectThree}
-          githubLink=""
-          websiteLink=""
+          githubLink="https://github.com/Asnoyon/react-quote-gen"
+          websiteLink="https://react-quote-gen.vercel.app/"
         />
         <ProjectsCard
           title="E-commerce"
