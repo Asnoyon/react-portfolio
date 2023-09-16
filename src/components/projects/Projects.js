@@ -57,8 +57,8 @@ const Projects = () => {
           title="E-commerce"
           des="This is E-commerce app. Created HTML,CSS and REACT js. Here I learned lot of things like context API, Tailwind css and React router dom "
           src={projectSix}
-          githubLink=""
-          websiteLink=""
+          githubLink="https://github.com/Asnoyon/e-commerce"
+          websiteLink="https://e-commerce-tau-murex-42.vercel.app/"
         />
       </div>
     </section>
