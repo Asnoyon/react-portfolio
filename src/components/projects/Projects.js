@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo,projectFour,projectFive,projectSix} from "../../assets/index";
+import { projectOne, projectTwo,projectFour,projectFive,projectSix,projectThree} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -20,43 +20,36 @@ const Projects = () => {
           title="Sign Up page"
           des="Complete responsive registration page with beautiful design.Created using HTML,CSS. Here I learned how to use linear gradient"
           src={projectOne}
-          githubLink=""
-          websiteLink=""
+          githubLink="https://github.com/Asnoyon/signup"
+          websiteLink="https://signup-omega-nine.vercel.app/"
         />
         <ProjectsCard
           title="Islam Jahid & Co."
           des="This was a company website. Here I learned how to design figma to html.This was my first figma to html."
           src={projectTwo}
-          githubLink=""
-          websiteLink=""
+          githubLink="https://github.com/Asnoyon/figma_html"
+          websiteLink="https://figma-html-six.vercel.app/"
 
         />
 
-        {/* <ProjectsCard
-          title="NumBee"
-          des="This is my first Bootstrap project.Created using HTML, CSS and BOOTSTRAP.Here I learned how row works"
-          src={projectThree}
-          githubLink=""
-          websiteLink=""
-        /> */}
         <ProjectsCard
           title="Noyon"
           des="This is my first portfolio with bootstrap.Created using HTML,CSS and BOOTSTRAP.Here I learned Bootstrap card"
           src={projectFour}
           githubLink="https://github.com/Asnoyon/Envelope"
-          websiteLink=""
+          websiteLink="https://envelope-one.vercel.app/"
         />
         <ProjectsCard
           title="ToDo"
           des="This is my first project with react js.In this app you can add, delete, edit and clear all items. Here i learned hooks, passing props"
           src={projectFive}
-          githubLink=""
-          websiteLink=""
+          githubLink="https://github.com/Asnoyon/react-todo"
+          websiteLink="https://react-todo-delta-lemon.vercel.app/"
         />
           <ProjectsCard
           title="Quote Generator"
           des="This is my Quote Genrator app.Created react jsx and css.Here I learned how fetch data with api"
-          // src={projectSeven}
+          src={projectThree}
           githubLink=""
           websiteLink=""
         />
