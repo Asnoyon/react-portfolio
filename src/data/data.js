@@ -14,13 +14,13 @@ export const featuresData = [
   {
     id: 2,
     icon: <AiFillAppstore />,
-    title: "App Development",
+    title: "Back-End Developer",
     des: "Will learn this soon in near future !",
   },
   {
     id: 3,
     icon: <SiProgress />,
-    title: "SEO Optimisation",
+    title: "MERN Stack",
     des: "Will learn this soon in near future !",
   }
 ];

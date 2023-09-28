@@ -7,7 +7,6 @@ const Card = ({item:{title,des,icon}}) => {
       <div className="h-72 overflow-y-hidden">
         <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
           <div className="w-10 h-8 flex flex-col justify-between">
-        
             {icon ? (
               <span className="text-5xl text-[#00FA9A]">{icon}</span>
             ) : (
