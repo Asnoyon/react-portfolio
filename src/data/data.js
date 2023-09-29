@@ -21,6 +21,6 @@ export const featuresData = [
     id: 3,
     icon: <SiProgress />,
     title: "MERN Stack",
-    des: "Will learn this soon in near future !",
+    des: "Will learn this soon in near future!",
   }
 ];
