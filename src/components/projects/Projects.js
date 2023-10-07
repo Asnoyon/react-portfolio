@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="Check these out on my github" des="My Projects" />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 text-justify">
         <ProjectsCard
           title="E-commerce"
           des="This is E-commerce app. Created HTML,CSS and REACT js. Here I learned lot of things like context API, Tailwind css and React router dom "
