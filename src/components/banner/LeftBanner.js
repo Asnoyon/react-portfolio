@@ -25,7 +25,7 @@ const LeftBanner = () => {
             cursorColor="#00FA9A"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        <p className="text-base font-bodyFont leading-6 tracking-wide text-justify">
         "I am a passionate Frontend  developer. With a strong foundation in web development and a keen eye for data, I create innovative solutions for user experience."
         </p>
       </div>

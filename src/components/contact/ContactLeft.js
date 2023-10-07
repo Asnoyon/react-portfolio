@@ -16,7 +16,7 @@ const ContactLeft = () => {
         <p className="text-lg font-normal text-gray-400">
           Front-end Developer
         </p>
-        <p className="text-base text-gray-400 tracking-wide">
+        <p className="text-base text-gray-400 tracking-wide text-justify">
         I am a passionate Front-end developer with expertise in  dynamic websites.I thoroughly enjoy the process of creating captivating web experiences that combine seamless functionality with stunning design. 
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">

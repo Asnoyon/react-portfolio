@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
                 <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
+                <p className="text-sm text-gray-400 mt-2 text-justify">
                 "I am a passionate Frontend  developer. With a strong foundation in web development and a keen eye for data, I create innovative solutions for user experience."
                 </p>
               </div>
