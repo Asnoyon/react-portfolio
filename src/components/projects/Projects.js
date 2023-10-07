@@ -1,7 +1,15 @@
-import React from 'react'
-import Title from '../layouts/Title'
-import { projectOne, projectTwo,projectFour,projectFive,projectSix,projectThree} from "../../assets/index";
-import ProjectsCard from './ProjectsCard';
+import React from "react";
+import Title from "../layouts/Title";
+import {
+  projectOne,
+  projectTwo,
+  projectFour,
+  projectFive,
+  projectSix,
+  projectThree,
+  projectSeven,
+} from "../../assets/index";
+import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   return (
@@ -10,18 +18,9 @@ const Projects = () => {
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title
-          title="Check these out on my github"
-          des="My Projects"
-        />
+        <Title title="Check these out on my github" des="My Projects" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-
-
-
-
-
-
         <ProjectsCard
           title="E-commerce"
           des="This is E-commerce app. Created HTML,CSS and REACT js. Here I learned lot of things like context API, Tailwind css and React router dom "
@@ -52,10 +51,17 @@ const Projects = () => {
         />
         <ProjectsCard
           title="Islam Jahid & Co."
-          des="This was a company website. Here I learned how to design figma to html.This was my first figma to html."
+          des="The HTML and Css website should faithfully reproduce the design from Figma, ensuring that every element, from layout to typography, matches the original design with pixel-perfect precision."
           src={projectTwo}
           githubLink="https://github.com/Asnoyon/figma_html"
-          websiteLink="https://figma-html-six.vercel.app/" 
+          websiteLink="https://figma-html-six.vercel.app/"
+        />
+        <ProjectsCard
+          title="Wooden"
+          des="The website's front-end design features a sleek and intuitive navigation system. The menu bar at the top of the page provides easy access to different furniture categories, ensuring a seamless browsing experience for visitors"
+          src={projectSeven}
+          githubLink="https://github.com/Asnoyon/practice/tree/master/wooden"
+          websiteLink="https://wooden-navy.vercel.app/"
         />
         <ProjectsCard
           title="Sign Up page"
@@ -67,5 +73,5 @@ const Projects = () => {
       </div>
     </section>
   );
-}
-export default Projects
+};
+export default Projects;
