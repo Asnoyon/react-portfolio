@@ -30,7 +30,7 @@ const Projects = () => {
           websiteLink="https://e-commerce-tau-murex-42.vercel.app/"
         />
         <ProjectsCard
-          title="E-commerce"
+          title="Employee Management System"
           des="A dynamic web application built using React.js for efficient employee management.With an intuitive user interface, it ensures seamless navigation and enhances productivity in managing your workforce."
           src={projectNine}
           githubLink="https://employee-management-five-psi.vercel.app/"
