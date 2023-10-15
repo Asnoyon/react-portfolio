@@ -8,6 +8,7 @@ import {
   projectSix,
   projectThree,
   projectSeven,
+  projectNine,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -27,6 +28,13 @@ const Projects = () => {
           src={projectSix}
           githubLink="https://github.com/Asnoyon/e-commerce"
           websiteLink="https://e-commerce-tau-murex-42.vercel.app/"
+        />
+        <ProjectsCard
+          title="E-commerce"
+          des="A dynamic web application built using React.js for efficient employee management.With an intuitive user interface, it ensures seamless navigation and enhances productivity in managing your workforce."
+          src={projectNine}
+          githubLink="https://employee-management-five-psi.vercel.app/"
+          websiteLink="https://github.com/Asnoyon/employee-management"
         />
         <ProjectsCard
           title="Quote Generator"

@@ -12,6 +12,7 @@ import testimonialThree from "./images/testmonial/testimonialThree.jpeg";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 import projectSeven from "./images/projects/projectSeven.png";
+import projectNine from "./images/projects/projectNine.png";
 export {
   logo,
   bannerImg,
@@ -21,6 +22,7 @@ export {
   projectFour,
   projectFive,
   projectSix,
+  projectNine,
   testimonialOne,
   testimonialTwo,
   testimonialThree,
