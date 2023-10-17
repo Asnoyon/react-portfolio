@@ -33,8 +33,8 @@ const Projects = () => {
           title="Employee Management System"
           des="A dynamic web application built using React.js for efficient employee management.With an intuitive user interface, it ensures seamless navigation and enhances productivity in managing your workforce."
           src={projectNine}
-          githubLink="https://employee-management-five-psi.vercel.app/"
-          websiteLink="https://github.com/Asnoyon/employee-management"
+          githubLink="https://github.com/Asnoyon/employee-management"
+          websiteLink="https://employee-management-five-psi.vercel.app/ "
         />
         <ProjectsCard
           title="Quote Generator"
