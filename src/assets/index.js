@@ -13,6 +13,7 @@ import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 import projectSeven from "./images/projects/projectSeven.png";
 import projectNine from "./images/projects/projectNine.png";
+import Ashadujjaman_Noyon from "./images/projects/Ashadujjaman_Noyon.pdf"
 export {
   logo,
   bannerImg,
@@ -29,4 +30,5 @@ export {
   quote,
   contactImg,
   projectSeven,
+  Ashadujjaman_Noyon
 };

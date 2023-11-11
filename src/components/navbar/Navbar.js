@@ -1,15 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import {  FaLinkedinIn } from "react-icons/fa";
-import { SiGithub,SiGmail } from "react-icons/si";
-import {logo} from "../../assets/index"
-import { navLinksdata } from '../../constants';
-import '../../index.css'
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiGithub, SiGmail } from "react-icons/si";
+import { logo } from "../../assets/index";
+import { navLinksdata } from "../../constants";
+import "../../index.css";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
@@ -47,7 +47,9 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2 text-justify">
-                "I am a passionate Frontend  developer. With a strong foundation in web development and a keen eye for data, I create innovative solutions for user experience."
+                  "I am a passionate Frontend developer. With a strong
+                  foundation in web development and a keen eye for data, I
+                  create innovative solutions for user experience."
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -86,6 +88,8 @@ const Navbar = () => {
                   </span>
                 </div>
               </div>
+             
+              
               <span
                 onClick={() => setShowMenu(false)}
                 className="absolute top-4 right-4 text-gray-400 hover:text-[#00FA9A] duration-300 text-2xl cursor-pointer"
@@ -98,6 +102,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

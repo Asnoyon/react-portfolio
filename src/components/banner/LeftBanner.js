@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from './Media';
-
+import { Ashadujjaman_Noyon } from '../../assets';
 const LeftBanner = () => {
     const [text] = useTypewriter({
       words: ["Professional Frontend Developer"],
@@ -28,6 +28,13 @@ const LeftBanner = () => {
         <p className="text-base font-bodyFont leading-6 tracking-wide text-justify">
         "I am a passionate Frontend  developer. With a strong foundation in web development and a keen eye for data, I create innovative solutions for user experience."
         </p>
+        <div className="mt-5">
+      <a href={Ashadujjaman_Noyon}>
+        <button class="bg-transparent hover:bg-green-500 text-white-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded">
+          DOWNLOAD CV
+        </button>
+      </a>
+      </div>
       </div>
      {/* Media */}
      <Media />
